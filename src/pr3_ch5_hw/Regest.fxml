@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" focusTraversable="true" prefHeight="389.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pr3_ch5_hw.RegestController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="391.0" prefWidth="265.0" stylesheets="@../style1.css">
+         <children>
+            <Label text="Student ID" textAlignment="CENTER">
+               <font>
+                  <Font name="Cinzel Black" size="12.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.5904761904761905" focusDistance="0.06976744186046502" radius="0.9069767441860466">
+                     <stops>
+                        <Stop color="#17c716" />
+                        <Stop color="#1a4a18" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <opaqueInsets>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="10.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="tStuID" alignment="CENTER">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Course ID" textAlignment="CENTER">
+               <font>
+                  <Font name="Cinzel Black" size="12.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="10.0" />
+               </opaqueInsets>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.5904761904761905" focusDistance="0.06976744186046502" radius="0.9069767441860466">
+                     <stops>
+                        <Stop color="#17c716" />
+                        <Stop color="#1a4a18" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="tCouId" alignment="CENTER">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="Semester" textAlignment="CENTER">
+               <font>
+                  <Font name="Cinzel Black" size="12.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="10.0" />
+               </opaqueInsets>
+               <textFill>
+                  <RadialGradient centerX="0.5055555555555555" centerY="0.5904761904761905" focusDistance="0.06976744186046502" radius="0.9069767441860466">
+                     <stops>
+                        <Stop color="#17c716" />
+                        <Stop color="#1a4a18" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="tSeme" alignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" right="30.0" />
+               </VBox.margin>
+            </TextField>
+            <Button fx:id="buttonAddCourse" mnemonicParsing="false" onAction="#buttonAddCourseHandle" text="ADD COURSE">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="12.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.4666666666666667" startX="0.45714285714285713">
+                     <stops>
+                        <Stop color="#17c716" />
+                        <Stop color="#1a4a18" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
